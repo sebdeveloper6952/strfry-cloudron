@@ -2,7 +2,6 @@
 	"id": "com.hoytech.strfry",
 	"title": "strfry",
 	"author": "hoytech",
-	"description": "file://DESCRIPTION.md",
 	"tagline": "a nostr relay",
 	"version": "0.9.6",
 	"healthCheckPath": "/",
@@ -17,6 +16,5 @@
 	"tags": [
 		"nostr",
 		"relay"
-	],
-	"postInstallMessage": "file://POSTINSTALL.md"
+	]
 }

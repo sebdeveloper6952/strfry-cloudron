@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 set -eu
@@ -14,5 +13,5 @@ fi
 echo "==> Changing ownership"
 chown -R cloudron:cloudron /app/data
 
-echo "==> Starting minio"
+echo "==> Starting strfry"
 exec /usr/local/bin/gosu cloudron:cloudron /app/code/strfry --config /app/data/strfry.conf relay

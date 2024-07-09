@@ -1,0 +1,22 @@
+{
+	"id": "com.hoytech.strfry",
+	"title": "strfry",
+	"author": "hoytech",
+	"description": "file://DESCRIPTION.md",
+	"tagline": "a nostr relay",
+	"version": "0.9.6",
+	"healthCheckPath": "/",
+	"httpPort": 7777,
+	"addons": {
+		"localstorage": {}
+	},
+	"manifestVersion": 2,
+	"website": "https://github.com/hoytech/strfry",
+	"contactEmail": "seb@sebdev.io",
+	"icon": "logo.png",
+	"tags": [
+		"nostr",
+		"relay"
+	],
+	"postInstallMessage": "file://POSTINSTALL.md"
+}

@@ -1,0 +1,18 @@
+datasource_mode = "JSON"
+
+[filters]
+public_key = true
+public_key_filter_mode = "Whitelist"
+kind = true
+kind_filter_mode = "Blacklist"
+word = false
+
+[database]
+host = ""
+port = ""
+user = ""
+password = ""
+dbname = ""
+
+[json]
+file_path = "/app/data/chief.json"

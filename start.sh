@@ -2,7 +2,7 @@
 
 set -eu
 
-mkdir -p /app/data/data /run/minio/config /run/minio/certs
+mkdir -p /app/data/lmdb
 
 if [[ ! -f /app/data/strfry.conf ]]; then
     echo "=> First run, copying config files"

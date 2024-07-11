@@ -20,3 +20,8 @@ Install the app
 ```
 cloudron install --image ghcr.io/sebdeveloper6952/strfry-cloudron:<version>
 ```
+
+For example:
+```
+cloudron install --image ghcr.io/sebdeveloper6952/strfry-cloudron:1974e1c2267ead714d2f5d346536f410ba56a844
+```

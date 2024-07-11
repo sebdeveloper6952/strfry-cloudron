@@ -10,3 +10,4 @@ writePolicy {
 }
 ```
 2. Update the `chief.json` file with your desired policy. For examples of policies please refer to [this url](https://github.com/0xtrr/chief/blob/master/docs/examples/example-data.json).
+3. Restart the app to apply the changes.

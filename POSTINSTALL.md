@@ -5,7 +5,6 @@ If you want to apply a policy, apply the following modifications using the File 
 1. Update the `writePolicy` section of the `strfry.conf` file to read like this:
 ```
 writePolicy {
-    # If non-empty, path to an executable script that implements the writePolicy plugin logic
     plugin = "/app/code/chief"
 }
 ```

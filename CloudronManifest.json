@@ -17,5 +17,6 @@
 		"nostr",
 		"relay"
 	],
-	"postInstallMessage": "file://POSTINSTALL.md"
+	"postInstallMessage": "file://POSTINSTALL.md",
+	"description": "file://DESCRIPTION.md"
 }
